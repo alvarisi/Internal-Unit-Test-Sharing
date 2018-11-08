@@ -2,8 +2,9 @@ package test.bukapedia.com.unittest.presentation.di;
 
 import dagger.Module;
 import dagger.Provides;
+import test.bukapedia.com.unittest.data.ArticleDataSourceFactory;
 import test.bukapedia.com.unittest.data.network.ArticleApi;
-import test.bukapedia.com.unittest.data.network.ArticleDataRepository;
+import test.bukapedia.com.unittest.data.ArticleDataRepository;
 import test.bukapedia.com.unittest.domain.ArticleRepository;
 import test.bukapedia.com.unittest.presentation.presenter.ArticlePresenter;
 import test.bukapedia.com.unittest.presentation.presenter.ArticlePresenterImpl;
@@ -18,8 +19,13 @@ public class ArticleModule {
     }
 
     @Provides
-    public ArticleRepository provideArticleRepository(ArticleApi articleApi) {
-        return new ArticleDataRepository(articleApi);
+    public ArticleDataSourceFactory provideArticleDataSourceFactory(ArticleApi articleApi) {
+        return new ArticleDataSourceFactory(articleApi);
+    }
+
+    @Provides
+    public ArticleRepository provideArticleRepository(ArticleDataSourceFactory dataSourceFactory) {
+        return new ArticleDataRepository(dataSourceFactory);
     }
 
     @Provides
