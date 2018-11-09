@@ -7,8 +7,7 @@ import java.util.List;
 
 public class ArticleResponse {
     @SerializedName("source")
-    @Expose
-    private String source;
+    String source;
     @SerializedName("articles")
     List<ArticleEntity> articles;
 
@@ -16,7 +15,7 @@ public class ArticleResponse {
         return articles;
     }
 
-    public String getSource() {
+    public String getSource(){
         return source;
     }
 }

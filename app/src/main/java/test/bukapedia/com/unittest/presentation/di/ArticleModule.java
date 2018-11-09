@@ -6,6 +6,7 @@ import test.bukapedia.com.unittest.data.ArticleDataSourceFactory;
 import test.bukapedia.com.unittest.data.network.ArticleApi;
 import test.bukapedia.com.unittest.data.ArticleDataRepository;
 import test.bukapedia.com.unittest.domain.ArticleRepository;
+import test.bukapedia.com.unittest.domain.model.mapper.ArticleMapper;
 import test.bukapedia.com.unittest.presentation.presenter.ArticlePresenter;
 import test.bukapedia.com.unittest.presentation.presenter.ArticlePresenterImpl;
 import test.bukapedia.com.unittest.presentation.ui.ArticleView;
@@ -24,8 +25,8 @@ public class ArticleModule {
     }
 
     @Provides
-    public ArticleRepository provideArticleRepository(ArticleDataSourceFactory dataSourceFactory) {
-        return new ArticleDataRepository(dataSourceFactory);
+    public ArticleRepository provideArticleRepository(ArticleDataSourceFactory dataSourceFactory, ArticleMapper articleMapper) {
+        return new ArticleDataRepository(dataSourceFactory, articleMapper);
     }
 
     @Provides

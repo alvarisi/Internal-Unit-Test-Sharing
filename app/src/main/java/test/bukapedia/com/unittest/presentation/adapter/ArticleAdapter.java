@@ -40,6 +40,10 @@ public class ArticleAdapter extends RecyclerView.Adapter<ArticleAdapter.ViewHold
         return articles.size();
     }
 
+    public void addArticles(List<Article> articles) {
+        this.articles.addAll(articles);
+    }
+
     public class ViewHolder extends RecyclerView.ViewHolder {
         private AppCompatTextView authorTextView;
         private AppCompatTextView titleTextView;

@@ -3,10 +3,16 @@ package test.bukapedia.com.unittest.domain.model.mapper;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
 import test.bukapedia.com.unittest.data.network.entity.ArticleEntity;
 import test.bukapedia.com.unittest.domain.model.Article;
 
 public class ArticleMapper {
+
+    @Inject
+    public ArticleMapper() {
+    }
 
     public Article transform(ArticleEntity entity) {
         Article article = null;

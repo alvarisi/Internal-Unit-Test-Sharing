@@ -37,9 +37,9 @@ public class ApplicationModule {
     @Provides
     OkHttpClient provideOkHttpClient(HttpLoggingInterceptor httpLoggingInterceptor) {
         OkHttpClient.Builder client = new OkHttpClient.Builder()
-                .connectTimeout(45L, TimeUnit.SECONDS)
-                .readTimeout(45L, TimeUnit.SECONDS)
-                .writeTimeout(45L, TimeUnit.SECONDS);
+                .connectTimeout(15L, TimeUnit.SECONDS)
+                .readTimeout(15L, TimeUnit.SECONDS)
+                .writeTimeout(15L, TimeUnit.SECONDS);
 
         if (BuildConfig.DEBUG) {
             client.addInterceptor(httpLoggingInterceptor);
