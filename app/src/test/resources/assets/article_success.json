@@ -1,0 +1,87 @@
+{
+  "status": "ok",
+  "source": "bbc-news",
+  "sortBy": "top",
+  "articles": [
+    {
+      "author": "BBC News",
+      "title": "'Mass shooting' at California bar",
+      "description": "Police respond to mass shooting at bar in Thousand Oaks, California",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-46135459",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7A23/production/_97176213_breaking_news_bigger.png",
+      "publishedAt": "2018-11-08T08:30:22Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "US Supreme Court judge fractures ribs",
+      "description": "Ruth Bader Ginsburg, 85, suffered three rib fractures in a fall, a court spokeswoman says.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-46142226",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17BC7/production/_104232279_mediaitem104232278.jpg",
+      "publishedAt": "2018-11-08T14:27:00Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Russia probe under threat, Democrats say",
+      "description": "Donald Trump's opponents raise fears over the inquiry after he fired his attorney general.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-46135758",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p06r37vc.jpg",
+      "publishedAt": "2018-11-08T10:27:31Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Warship collides with tanker in fjord",
+      "description": "Norway evacuates a frigate after it collides with a tanker, leaving seven people lightly injured.",
+      "url": "http://www.bbc.co.uk/news/world-europe-46136564",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C000/production/_104225194_mediaitem104225192.jpg",
+      "publishedAt": "2018-11-08T10:24:08Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Man wins three lottery prizes in one day",
+      "description": "A New Jersey man wins three in a row on scratch cards including the top prize.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-46135905",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/4576/production/_104228771_gettyimages-484457643.jpg",
+      "publishedAt": "2018-11-08T13:34:22Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Pakistan frees Christian woman Asia Bibi",
+      "description": "Asia Bibi's lawyer tells AFP that she is \"on a plane\" to an unknown destination.",
+      "url": "http://www.bbc.co.uk/news/world-asia-46130189",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p06qc8bh.jpg",
+      "publishedAt": "2018-11-07T20:13:14Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Dutchman, 69, sues to lower his age",
+      "description": "Emile Ratelband wants to officially change his birth date by 20 years to boost his Tinder prospects.",
+      "url": "http://www.bbc.co.uk/news/world-europe-46133262",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/8FCC/production/_104221863_gettyimages-1020485962.jpg",
+      "publishedAt": "2018-11-08T10:08:06Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Which of these newsreaders isn't real?",
+      "description": "China's Xinhua news agency says it has developed an artificial intelligence newsreader.",
+      "url": "http://www.bbc.co.uk/news/world-asia-china-46135116",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/F91C/production/_104227736_p06r4mr4.jpg",
+      "publishedAt": "2018-11-08T11:35:11Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "Hundreds of buffaloes drown 'fleeing lions'",
+      "description": "Some think the buffaloes were running away from lions when they got stuck in the Chobe River.",
+      "url": "http://www.bbc.co.uk/news/world-africa-46136338",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/143FE/production/_104224928_drajqbuxgaqqpbr.jpg",
+      "publishedAt": "2018-11-08T12:07:12Z"
+    },
+    {
+      "author": "BBC News",
+      "title": "White House suspends CNN reporter's access",
+      "description": "Jim Acosta was called a \"terrible person\" by President Trump after he refused to stop asking questions.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-46133268",
+      "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p06r3vhc.jpg",
+      "publishedAt": "2018-11-08T11:12:56Z"
+    }
+  ]
+}
